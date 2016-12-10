@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--配置圆角-->
+    <corners android:radius="5dp" />
+
+    <!--配置内边距-->
+    <padding
+        android:bottom="3dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp" />
+    <!--填充色-->
+    <solid android:color="#FFFFFFFF" />
+
+    <!--描边-->
+    <!--<stroke-->
+        <!--android:width="3dp"-->
+        <!--android:color="#FFFF0000"-->
+        <!--android:dashGap="5dp"-->
+        <!--android:dashWidth="2dp" />-->
+</shape>

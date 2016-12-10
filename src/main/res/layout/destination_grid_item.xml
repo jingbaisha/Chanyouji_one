@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qianphone.com.canyouji.views.MyDestinationItemContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/destination_cover_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/destination_name_zh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="中国"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/destination_name_en_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/destination_name_zh_tv"
+        android:layout_alignStart="@+id/destination_name_zh_tv"
+        android:layout_below="@+id/destination_name_zh_tv"
+        android:layout_marginTop="5dp"
+        android:text="CHINA"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/destination_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#88000000"
+        android:padding="5dp"
+        android:text="1024个旅行地"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+
+</qianphone.com.canyouji.views.MyDestinationItemContainer>
